@@ -62,6 +62,9 @@ This table contains all information about orders and each item inside the orders
 ---------------------------------------------------------------------------------------------------
 
 Column Description for fact_orders_aggregate:
+
+Its a table distinct items from fact_order_lines[order_id]
+
 This table contains information about OnTime, InFull and OnTime Infull information aggregated at the order level per customer
 
 1. order_id: Unique ID for each order the customer placed
